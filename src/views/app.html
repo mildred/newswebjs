@@ -1,0 +1,31 @@
+<template>
+  <div>
+    <style scope>
+      .main:component {
+        display: flex;
+        flex-flow: row nowrap;
+      }
+      nav:component {
+        order: -1;
+      }
+      .body:component {
+        flex: 0 1 auto;
+      }
+      .hidden:component {
+        display: none;
+      }
+    </style>
+
+    <span class="hash"></span>
+
+    <div class="main">
+      <div class="threads body">
+      </div>
+      <nav>
+        <a href="#/">Home</a>
+        <div class="groups">
+        </div>
+      </nav>
+    </div>
+  </div>
+</template>
